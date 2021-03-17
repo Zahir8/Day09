@@ -1,11 +1,12 @@
 function inverseWhile(){
     var num = 5;
-    var myString = "";
+    var fiveNumbers = "";
     while (num > 0) {
-        myString += num;
+        fiveNumbers += num + ",";
         num--;
     }
-    return myString;
+    fiveNumbers += num;
+    return fiveNumbers;
 }
 console.log(inverseWhile());
 inverseWhile();
